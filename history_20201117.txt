@@ -239,3 +239,93 @@ head pp.txt
 head git/pp.txt
 $SHELL
 cp .history git/history_20201117.txt
+ls
+cd git
+ls
+rm pp.txt
+ls
+cd
+ls
+rm pp.txt
+ls
+ls git
+cd git
+ls
+git status
+git add history_20201117.txt
+git push origin master
+git status
+git commit -m
+git commit -m "First Commit"
+git status
+git push origin master
+ls
+git status
+cd
+ls-l
+ls -l
+cd Data
+ls
+cd shell
+ll
+wc Text_example.txt
+echo -n "hola" | wc
+cat Text_example.txt | wc
+cat Text_example.txt | wc -|\
+\
+wc
+ls
+wc Text_example.txt
+head -c -1k optd_aircraft.csv
+cd
+cd Data/opentraveldata
+ls -sSlr |tail -n
+ls -sSlr |tail -n 1
+cd
+ls -sSlr Data/opentraveldata |tail -n 1
+ls -sSlr Data/opentraveldata |tail -n 1 > largest_file.txt
+ls
+largest_file.txt
+echo largest_file.txt
+head largest_file.txt
+ls
+find finn
+find finn.txt
+find Finn.txt
+find largest_file.txt
+find git
+find finn
+find Finn.txt
+head -n 5 Data/shell/Finn.txt|wc -c
+find "Text_example.txt"
+ls
+cd Data
+ls
+cd
+cd git
+ls
+cd
+cd Download
+cd Desktop
+ls
+cd
+cd shell
+cd
+cd Data
+cd shell
+ls
+cd
+cat Data/shell/Text_example.txt
+cat -n  Data/shell/Text_example.txt
+cat -n  Data/shell/Text_example.txt >> nuevoarchivo
+head nuevoarchivo
+cat -n  Data/shell/Text_example.txt >> nuevoarchivo
+cat nuevoarchivo
+tail .history -n 20
+tail .history -n 20 >> nuevoarchivo2
+cat nuevoarchivo2
+man cat
+cd
+cd git
+pwd
+cp $HISTFILE history_20201117.txt
